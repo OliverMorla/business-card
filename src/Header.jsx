@@ -7,7 +7,7 @@ export default function Header(){
         <header>
             <nav>
                 <div className="logo-container">
-                    <img src="/public/react-logo.png" alt="" className="logo-properties"/>
+                    <img src="../public/react-logo.png" alt="" className="logo-properties"/>
                     <div className="logo-text">ReactFacts</div>
                 </div>
                 <div className="logo-title">React Course - Project 1</div>                
