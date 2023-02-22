@@ -11,7 +11,6 @@ button{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(.70);
-    /* max-height: 90vh; */
     width: 30vw;
     height: 70vh auto;
     background-color: var(--dark);
@@ -19,7 +18,7 @@ button{
     resize: both;
     overflow: hidden;
     visibility: hidden;
-    
+    box-shadow: 0 0 10px black;
 }
 
 .pop-up.active{
