@@ -15,7 +15,7 @@ export default function App() {
         <Content showCard={showCard} setShowCard={setShowCard} />
       </div>
       {showCard && (
-        <Draggable defaultClassName="card fix">
+        <Draggable defaultClassName="card">
           <div >
             <Card />
           </div>

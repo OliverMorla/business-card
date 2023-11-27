@@ -45,7 +45,3 @@ button:hover {
   padding: 1rem;
   gap: 10px;
 }
-
-.fix{
-    transform: translateY(50%);
-}
