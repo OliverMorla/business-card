@@ -1,0 +1,51 @@
+.card {
+  position: absolute;
+  max-width: 400px;
+  width: 100%;
+  background-color: var(--dark);
+  height: auto;
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px var(--light);
+  cursor: pointer;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.card__header-contact {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+button {
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  background-color: var(--light);
+  color: white;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--dark-hover);
+  color: white;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 10px;
+}
+
+.fix{
+    transform: translateY(50%);
+}

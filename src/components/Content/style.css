@@ -1,0 +1,32 @@
+.content {
+  background-color: var(--light);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content__title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.content__card-button {
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  background-color: var(--dark);
+  color: white;
+  padding: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.content__card-button:hover {
+  background-color: var(--dark-hover);
+  color: white;
+}
+
+.content__card-button:active {
+  transform: scale(0.95);
+}

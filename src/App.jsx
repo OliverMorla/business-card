@@ -1,15 +1,26 @@
-// This combines combines all main components together into a single <App /> component
+import React, { useState } from "react";
 
-import React from "react";
-import ReactDOM from "react-dom/client"
-import Header from "./Header";
-import Content from "./Content";
+import Header from "./components/Header";
+import Content from "./components/Content";
+import Card from "./components/Card";
+import Draggable from "react-draggable";
 
-export default function App(){
-    return(
-        <div className="container">
-            <Header />
-            <Content />
-        </div>
-    )
+export default function App() {
+  const [showCard, setShowCard] = useState(false);
+
+  return (
+    <section className="container">
+      <div className="modal">
+        <Header />
+        <Content showCard={showCard} setShowCard={setShowCard} />
+      </div>
+      {showCard && (
+        <Draggable defaultClassName="card fix">
+          <div >
+            <Card />
+          </div>
+        </Draggable>
+      )}
+    </section>
+  );
 }
