@@ -16,7 +16,7 @@ export default function App() {
       </div>
       {showCard && (
         <Draggable defaultClassName="card">
-          <div >
+          <div>
             <Card />
           </div>
         </Draggable>
