@@ -7,6 +7,9 @@
 - **React Facts Modal:** A modal window presenting interesting facts about React, perfect for beginners and enthusiasts alike.
 - **Draggable Business Card:** An interactive, digital business card that can be dragged around the screen. This card contains personal information and is a demonstration of React's drag-and-drop capabilities.
 
+## Preview
+![Capture](https://github.com/OliverMorla/business-card/assets/73266650/211b01db-7023-462d-80ff-cf0cf44f1b45)
+
 ## Installation
 To set up `business-card` locally, follow these steps:
 
